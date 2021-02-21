@@ -13,7 +13,7 @@ Registro de la muestra de trabajo en 2019
 
 
 
-
+Link a registro en video: https://www.youtube.com/watch?v=boJKhoyfTxg&t=77s
 
 La instalación consiste en un dibujo de 120cm x 84cm hecho de grafito colgado de una pared. A este dibujo se conectan unos cables que se conectan
 a sensores de capacitancia que estan conectados a un Aruduino UNO. El Arduino detecta los cambios de capacitancia del circuito cuando una persona toca el dibujo.
