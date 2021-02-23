@@ -39,4 +39,13 @@ Los cables son los sensores de capacitancia. Cuando uno los toca, cambia la capa
 el grafito del dibujo, que tiene la capacidad de conducir la electricidad. 
 
 Al detectar los cambios de capacitancia en los distintos sensores, el arduino manda señales seriales a la computadora. En la computadora 
-necesitamos tener andando el programa 
+necesitamos tener andando el programa Hairless midi-serial.
+Se ve asi:
+<img src="images/hairless_midiserial.png" width="500">
+
+Lo podemos descargar gratuitamente de esta pagina web: https://projectgus.github.io/hairless-midiserial/
+
+Como podemos ver Hairless midi-serial lo que hace es convertir las señales Seriales en señales midi. Luego necesitamos abrir
+el programa LoopMidi
+
+
