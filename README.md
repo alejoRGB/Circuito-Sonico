@@ -58,7 +58,30 @@ Lo que hace loopMidi es tomar las señales que le manda el Hairless midi-serial 
 como señaes midi provenientes de un dispositivo midi. 
 
 
-Como siguiente paso vamos a abrir nuestro DAW de elección, en mi caso es ABLETON LIVE. Como primer paso tenemos que elegir 
+Como siguiente paso vamos a abrir nuestro DAW de elección, en mi caso es ABLETON LIVE. Tenemos que en las configuraciones MIDi, 
+elegir a LoopMidi como instrumento de entrada. 
+<img src="images/ableton-config.png" width="500">
 
-y elegiremos un instrumento para que interprete las señales midi que
-envía LoopMidi
+Creamos un canal midi que reciva información de LoopMidi. En este caso corresponde a la información enviada
+en el canal 1. Cada canal del 1 al 10 corresponde a cada uno de los 10 sensores del arduino. 
+
+<img src="images/canal_midi.png" width="1200">
+
+y asi se ve cuando una señal es enviada:
+
+<img src="images/canal_midi_solo.gif" width="1200">
+
+Tener en cuenta que solo es posible enviar una nota a la vez por canal. Como esto puede sonar medio aburrido, lo que
+suelo hacer es utilizar plugins que modifiquen la señal midi para generar algo más interesante. 
+
+<img src="images/canal_midi_probab3.gif" width="1200">
+
+
+Ultimas consideraciones:
+-Es necesario que el circuito siempre tenga una conección a tierra. Si por ejemplo estamos usando el arduino en una laptop, es necesario que 
+la usemos conectada, sino el circuito no va a funcionar. 
+-Es posible que si la persona que toca el dibujo esta usando botas o algun otro calzado no funcione el circuito. Algo que yo probe
+y funcionó fue pedirle a los participantes que se saquen los zapatos y poner una superficie de madera en el suelo, de esta forma funcionó siempre.
+-es posible que el circuito tome señales falseadamente, esto depende de la resistencia que estemos usando y del valor que le demos en el codigo a la variable "touchedCutoff".
+-se puede ampliar la cantidad de sensores, incluso si se utiliza otro arduino, se puede poner un sensor por cada Pin Digital que se tenga. 
+-Intentar que los instrumentos tengan un balance entre ritmicos y meloodicos.
