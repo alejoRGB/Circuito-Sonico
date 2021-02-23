@@ -22,9 +22,21 @@ segun que sensor se haya tocado. Los sensores de capacitancia tienen la particul
 es necesario que 2 personas diferentes toquen el dibujo para que suenen los diferentes sonidos. 
 
 
+Como funciona:
 
-Imagen del circuito con el arduino
+El arduino esta todo el tiempo midiendo la capacitancia de las distintas partes del dibujo que estan atadas a unos sensores de capacitancia con unos
+clips cocodrilo. 
 
-<img src="images/mini-circuite.jpg" width="350">
+Imagen del circuito con el arduino: 
 
+<img src="images/SCHEMATIC_PARA_DIBUJOI_SONICO.png" width="600">
 
+Este circuito en particular tiene 10 sensores de capacitancia. El valor de las resistencias es de 1Millon ohm, pero se puede experimentar con otros valores
+de resistencias para que el dibujo sea mas sensible al tacto o menos sensible. El codigo y el esquematico lo adapte de este proyecto:
+https://www.instructables.com/Turn-a-pencil-drawing-into-a-capacitive-sensor-for/
+
+Los cables son los sensores de capacitancia. Cuando uno los toca, cambia la capacitancia. Por extención, cuando conecto los sensores al dibujo, se extiende por 
+el grafito del dibujo, que tiene la capacidad de conducir la electricidad. 
+
+Al detectar los cambios de capacitancia en los distintos sensores, el arduino manda señales seriales a la computadora. En la computadora 
+necesitamos tener andando el programa 
