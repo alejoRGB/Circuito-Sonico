@@ -46,6 +46,19 @@ Se ve asi:
 Lo podemos descargar gratuitamente de esta pagina web: https://projectgus.github.io/hairless-midiserial/
 
 Como podemos ver Hairless midi-serial lo que hace es convertir las señales Seriales en señales midi. Luego necesitamos abrir
-el programa LoopMidi
+el programa LoopMidi, que se ve así:
+
+<img src="images/loopmidi.png" width="500">
+
+y lo podemos descargar de manera gratuita de la siguiente pagina: 
+http://www.tobias-erichsen.de/software/loopmidi.html
 
 
+Lo que hace loopMidi es tomar las señales que le manda el Hairless midi-serial y routearlas en un canal especifico, para que nuestro DAW tome esas señales
+como señaes midi provenientes de un dispositivo midi. 
+
+
+Como siguiente paso vamos a abrir nuestro DAW de elección, en mi caso es ABLETON LIVE. Como primer paso tenemos que elegir 
+
+y elegiremos un instrumento para que interprete las señales midi que
+envía LoopMidi
