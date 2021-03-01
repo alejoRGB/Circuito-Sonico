@@ -45,8 +45,9 @@ Se ve así:
 
 Lo podemos descargar gratuitamente de esta página web: https://projectgus.github.io/hairless-midiserial/
 
-Como podemos ver Hairless midi-serial lo que hace es convertir las señales Seriales en señales midi. Luego necesitamos abrir
-el programa LoopMidi, que se ve así:
+Como podemos ver Hairless midi-serial lo que hace es convertir las señales Seriales en señales midi. Para entender como
+enviar mensajes midi en lenguaje sería, aquí esta el "diccionario": https://www.midi.org/specifications-old/item/table-2-expanded-messages-list-status-bytes
+Luego necesitamos abrir el programa LoopMidi, que se ve así:
 
 <img src="images/loopmidi.png" width="500">
 
