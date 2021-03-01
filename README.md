@@ -56,7 +56,7 @@ http://www.tobias-erichsen.de/software/loopmidi.html
 
 Lo que hace loopMidi es tomar las señales que le manda el Hairless midi-serial y rutearlas en un canal especifico, para que nuestro DAW tome esas señales
 como señales midi provenientes de un dispositivo midi. 
-
+Fuente: https://www.partsnotincluded.com/how-to-send-receive-midi-messages-over-serial/ 
 
 Como siguiente paso vamos a abrir nuestro DAW de elección, en mi caso es ABLETON LIVE. Tenemos que en las configuraciones Midi, 
 elegir a LoopMidi como instrumento de entrada. 
